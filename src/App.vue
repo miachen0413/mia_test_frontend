@@ -52,7 +52,7 @@ const baseUrl = ''
 const setupPage = () => {
   axios({
     method: 'get',
-    url: baseUrl + '/user',
+    url: baseUrl + '/api/user',
   }).then(res => {
     const {data} = res.data
     users.value = data
