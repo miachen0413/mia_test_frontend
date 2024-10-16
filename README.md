@@ -2,9 +2,9 @@
 
 請先將此專案 fork 到自己的 GitHub 上，再進行修改。
 
-baseUrl 將由面試官提供
+baseUrl 將由面試官提供。
 
-文檔網址為 ${baseUrl}/swagger/index.html
+文檔網址為 ${baseUrl}/swagger/index.html。
 
 ## 測試內容
 
@@ -15,9 +15,9 @@ baseUrl 將由面試官提供
 
 ## BFormControls.vue 要求
 
-1. 能使用 v-model 做資料的雙向綁定
-2. 定用組件時需可設置 type
-3. id 不可重複，除非使用者手動設置的值剛好與生成的 id 相同
+1. 能使用 v-model 做雙向綁定 (vue3.4 以下作法優先)
+2. type參數: 類型String, 預設為text
+3. id 不可重複，但允許用戶自行設置
 
 
 ## 額外內容
