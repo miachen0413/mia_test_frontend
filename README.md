@@ -8,16 +8,19 @@ baseUrl 將由面試官提供。
 
 ## 測試內容
 
-1. 完成 `BFormControls.vue` 輸入組件的封裝。
-2. 用戶資料只有在首次進入畫面時可以去請求。
+1. 完成 `BFormControls.vue` 輸入組件的封裝。 (封裝組件)
+2. 用戶資料只有在首次進入畫面時可以去請求。 (節流)
 3. 其餘請依照 `App.vue` 的要求完成。
 
 ## BFormControls.vue 要求
 
-1. 能使用 v-model 做雙向綁定 (vue3.4 以下作法優先)
+1. 能使用 v-model 做雙向綁定 (使用 vue3.4 以下方法可加分)
 2. type參數: 類型String, 預設為text
 3. id 不可重複，但允許用戶自行設置
 
+## 注意事項
+
+1. `App.vue` template 內容不可修改
 
 ## 額外內容
 
